@@ -17,10 +17,10 @@ while True:
 # --- Public IP address ---
     public_ip = get("https://api.ipify.org").text
 # --- Email login details ---
-    EmailAddressSender = 'andrews.python.app@gmail.com'
-    EmailPassword = 'Wolf3636'
+    EmailAddressSender = 'xxx@xxx.xxx'
+    EmailPassword = '********'
 # --- Email list ---
-    EmailAddressReceiver = "andrewclarke.aron@gmail.com"
+    EmailAddressReceiver = "xxx@xxx.xxxm
 # --- Email message ---
     msg = EmailMessage()
     msg['Subject'] = f'Speedtest results for: {date}'
